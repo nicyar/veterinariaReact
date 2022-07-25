@@ -1,5 +1,5 @@
 const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
-    const { nombre, propietario, email, fecha, sintomas, id } = paciente
+    const {nombre, propietario, email, fecha, sintomas, id } = paciente
 
     const handleEliminar = () => {
         const respuesta = confirm('Deseas eliminar este paciente?');
